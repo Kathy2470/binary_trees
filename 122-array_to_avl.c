@@ -16,5 +16,5 @@ avl_t *array_to_avl(int *array, size_t size)
 		avl_insert(&tree, array[i]);
 	}
 
-	return tree;
+	return (tree);
 }
